@@ -1,0 +1,97 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Image Styling */
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+/* Paragraph Styling */
+p {
+    font-size: 18px;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.6; /* Improved readability */
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    margin: 20px auto;
+    padding: 0;
+    width: 250px;
+    text-align: left;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Table Styling */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row color */
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Media Elements */
+iframe, audio {
+    margin: 20px 0;
+}
+
+/* Footer Styling */
+footer {
+    margin: 20px 0;
+    font-size: 0.9em;
+    color: #666;
+}

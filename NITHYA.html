@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Your Name">
+    <meta name="description" content="Personal web page of Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Your Name</title>
+
+    <link rel="stylesheet" href="hi.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>About Nithya</h1>
+    </header>
+
+    <!-- Profile Picture and Link -->
+    <a href="https://www.instagram.com/nithya_jxse?igsh=Z3Z5aGJyYzdubWVK" target="_blank">
+        <img src="220.jpg" alt="Nithya">
+    </a>
+
+    <!-- About Me Section -->
+    <section>
+        <h2>About Me</h2>
+        <p id="para">Hey I am Nithya Jose. I'm currently a final year cse student passionate about learning new skills.
+            <br/> Here are some of my strengths and weaknesses:</p>
+        <ul>
+            <li><strong>Strengths:</strong> Problem-solving,time_management, teamwork, adaptability</li>
+            <li><strong>Weaknesses:</strong> Overthinking, perfectionism</li>
+        </ul>
+    </section>
+    <br/>
+    <br/>
+
+    <!-- Bucket List Table -->
+    <section>
+        <h2>Bucket List</h2>
+        <table>
+            <tr>
+                <th>Serial Number</th>
+                <th>Items</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Watch Northern Lights
+                </td>
+                <td>Not completed</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Travel to Turkey</td>
+                <td>Not Completed</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sponser a child's education</td>
+                <td>Not completed</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>learn a new skill</td>
+                <td> completed</td>
+            </tr>
+
+        </table>
+    </section>
+    <br/>
+    <br/>
+    <!-- Media Embedding -->
+    <section>
+        <h2>Favourite Movie and Song</h2>
+        <!-- Embed YouTube Video -->
+        <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <audio controls>
+            <source src="song.mpeg" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Favourite Movie and Song</h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=sApvDcSNUkw" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+
+    <!-- Button with JavaScript -->
+    <section>
+        <button onclick="showMessage()">Click Me</button>
+    </section>
+
+    <!-- JavaScript Code -->
+    <script>
+        function showMessage() {
+            alert("Hello, welcome to my page!");
+        }
+        const para = document.getElementById('para');
+        para.addEventListener('mouseover', function() {
+            document.body.style.backgroundColor = '#d4e157'; // Light green on hover
+        });
+
+        para.addEventListener('mouseout', function() {
+            document.body.style.backgroundColor = ''; // Reset to default background color
+        });
+    </script>
+
+    <footer>
+        <p>© 2024 Nithya Jose. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
